@@ -238,10 +238,11 @@ body {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
-  color: #fff; }
+  color: #c90820; }
 
 header.masthead {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header.jpg"); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header.jpg");
+  background-attachment: fixed; }
 
 #mainNav {
   background-color: rgba(200, 200, 200, 0.2);
@@ -311,3 +312,9 @@ header.masthead {
     display: none; }
   #mainNav {
     background-color: rgba(255, 255, 255, 0.8); } }
+
+h1 {
+  text-shadow: 3px 3px rgba(255, 255, 255, 0.3); }
+  h1 strong {
+    padding: 0 1rem 0 1rem;
+    background: #000; }
