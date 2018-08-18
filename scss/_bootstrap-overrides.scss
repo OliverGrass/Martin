@@ -1,0 +1,66 @@
+// Bootstrap overrides for this template
+.text-primary {
+  color: $primary !important;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  @include sans-serif-font;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: darken($primary, 5%) !important;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(214, 11, 3, 0.5) !important;
+  }
+}
+
+.navLogo {
+  height: 150px;
+  width: 150px;
+}
+
+.icons {
+  a {
+    margin: 10px;
+  }
+}
+
+header.masthead {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/header.jpg");
+}
+
+#mainNav {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+.navbar-shrink {
+  transition: all 2s ease-out;
+  transform: translate(0px, -20px);
+}
+
+#about {
+  .video {
+    border: solid 2px #fff;
+  }
+}
+
+#team {
+  border-top: 100px solid #fff;
+}
